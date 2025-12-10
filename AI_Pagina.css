@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'handala' ;
+}
+
+h1 { /* Estilos para encabezados de nivel 1, 2 y 3 respectivamente. Todos tienen color blanco, alineación centrada y algún efecto de transición en el color de fondo. Además, se establece un tamaño de fuente específico para el h1 y el h3.*/
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+    transition: background-color 0.5s ease;
+    font-size: 40px;
+}
