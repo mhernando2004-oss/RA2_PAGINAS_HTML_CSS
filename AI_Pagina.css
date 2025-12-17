@@ -2,12 +2,33 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'handala' ;
+    background-color: #2a2a2b;
 }
 
-h1 { /* Estilos para encabezados de nivel 1, 2 y 3 respectivamente. Todos tienen color blanco, alineación centrada y algún efecto de transición en el color de fondo. Además, se establece un tamaño de fuente específico para el h1 y el h3.*/
+h1 { 
     color: #ffffff;
     text-align: center;
     padding: 1em 0;
     transition: background-color 0.5s ease;
     font-size: 40px;
+}
+h2 {
+    color: #ffffff;
+    text-align: left;
+    padding: 1em 0;
+    transition: background-color 0.5s ease;
+}
+
+h3 {
+    color: #ecdede;
+    margin-top: -100px;
+    transition: background-color 0.5s ease;
+    font-size: 25px;
+}
+
+.Principal{ 
+    width: 900px;
+    height: 500px; 
+    padding-left: 29%;
+    border-radius: 30px;
 }
